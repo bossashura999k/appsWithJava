@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shadow under body -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M36,64 A22,5 0 1,0 80,64 A22,5 0 1,0 36,64 Z" />
+
+    <!-- Wing -->
+    <path
+        android:fillColor="#E8A800"
+        android:pathData="M44,52 Q38,44 46,42 Q54,40 52,50 Z" />
+
+    <!-- Body (circle cx=58 cy=55 r=22) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M36,55 A22,22 0 1,0 80,55 A22,22 0 1,0 36,55 Z" />
+
+    <!-- Chest highlight (circle cx=53 cy=58 r=13) -->
+    <path
+        android:fillColor="#FFE85C"
+        android:pathData="M40,58 A13,13 0 1,0 66,58 A13,13 0 1,0 40,58 Z" />
+
+    <!-- Eye white (circle cx=66 cy=48 r=8) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,48 A8,8 0 1,0 74,48 A8,8 0 1,0 58,48 Z" />
+
+    <!-- Pupil (circle cx=68 cy=47 r=4) -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M64,47 A4,4 0 1,0 72,47 A4,4 0 1,0 64,47 Z" />
+
+    <!-- Eye shine (circle cx=70 cy=45 r=1.5) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68.5,45 A1.5,1.5 0 1,0 71.5,45 A1.5,1.5 0 1,0 68.5,45 Z" />
+
+    <!-- Beak top -->
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M74,53 L84,50 L74,57 Z" />
+
+    <!-- Beak bottom -->
+    <path
+        android:fillColor="#E07000"
+        android:pathData="M74,57 L84,50 L84,54 L74,60 Z" />
+
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <!-- POLYGON backend on Render -->
+        <domain includeSubdomains="true">the-p0lyg0n.onrender.com</domain>
+        <!-- POLYGON frontend on Vercel -->
+        <domain includeSubdomains="true">the-p0lyg0n.vercel.app</domain>
+        <!-- Squad payment API -->
+        <domain includeSubdomains="true">squadco.com</domain>
+        <domain includeSubdomains="true">sandbox-api-d.squadco.com</domain>
+    </domain-config>
+    <!-- Allow localhost for dev/testing -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

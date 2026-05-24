@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer hexagon glow -->
+    <path
+        android:fillColor="#1A00FF88"
+        android:pathData="M54,12 L90,33 L90,75 L54,96 L18,75 L18,33 Z" />
+
+    <!-- Outer hexagon border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0088FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,16 L87,35 L87,73 L54,92 L21,73 L21,35 Z" />
+
+    <!-- Inner hexagon -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00CC6A"
+        android:strokeWidth="1.5"
+        android:pathData="M54,26 L78,40 L78,68 L54,82 L30,68 L30,40 Z" />
+
+    <!-- Corner dots (as paths, no circle tags) -->
+    <path android:fillColor="#0088FF" android:pathData="M51.5,16 A2.5,2.5 0 1,0 56.5,16 A2.5,2.5 0 1,0 51.5,16 Z" />
+    <path android:fillColor="#0088FF" android:pathData="M84.5,35 A2.5,2.5 0 1,0 89.5,35 A2.5,2.5 0 1,0 84.5,35 Z" />
+    <path android:fillColor="#0088FF" android:pathData="M84.5,73 A2.5,2.5 0 1,0 89.5,73 A2.5,2.5 0 1,0 84.5,73 Z" />
+    <path android:fillColor="#0088FF" android:pathData="M51.5,92 A2.5,2.5 0 1,0 56.5,92 A2.5,2.5 0 1,0 51.5,92 Z" />
+    <path android:fillColor="#0088FF" android:pathData="M18.5,73 A2.5,2.5 0 1,0 23.5,73 A2.5,2.5 0 1,0 18.5,73 Z" />
+    <path android:fillColor="#0088FF" android:pathData="M18.5,35 A2.5,2.5 0 1,0 23.5,35 A2.5,2.5 0 1,0 18.5,35 Z" />
+
+    <!-- Letter P — bold, centered -->
+    <path
+        android:fillColor="#0088FF"
+        android:pathData="M42,36 L42,72 L48,72 L48,58 L58,58 Q67,58 67,47 Q67,36 58,36 Z
+                          M48,41 L57,41 Q61,41 61,47 Q61,53 57,53 L48,53 Z" />
+
+</vector>
